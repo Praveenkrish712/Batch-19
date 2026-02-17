@@ -31,3 +31,24 @@ self closing tag - hr, meta, br, img, input
 12) Sematic tags - Header, footer, section, nav and main
 
 13) division tag - div
+
+
+CSS - Cascading Style Sheet
+
+1) Types of CSS
+==> inline CSS
+==> Internal CSS
+==> External CSS
+inline > Internal > External
+
+2) CSS Syntax
+selector{
+    property: value;
+}
+
+3) Types of Selector
+==> Element Selector - (h1) (h2) (p)
+==> Class Selector - (.) - (Multiple) - no of times we are using the same class name
+==> Id Selector - (#) - (Unique) - only one time we are using the same id name
+==> Universal Selector - (*) - to be apply the entire site
+==> Group Selector - class or id Selector contents different tags, we wanna change the same style means we go with group selector
