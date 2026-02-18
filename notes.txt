@@ -52,3 +52,29 @@ selector{
 ==> Id Selector - (#) - (Unique) - only one time we are using the same id name
 ==> Universal Selector - (*) - to be apply the entire site
 ==> Group Selector - class or id Selector contents different tags, we wanna change the same style means we go with group selector
+
+4) Colors and background
+==> color - name, RGB, HEX
+
+==> background
+ background color: name;
+ background-image: url(./Assets/360_F_389390965_lwqVX10TBdFH2WMBH6GGF8pcNiOhzfnb.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+
+5) Text Styling
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: .7;
+    letter-spacing: 1px;
+
+6) Box Modeling
+==> content
+==> Padding - give the space around to the content 
+==> Border - give the around to the Padding
+==> Margin - give the space around to the Border
