@@ -78,3 +78,10 @@ selector{
 ==> Padding - give the space around to the content 
 ==> Border - give the around to the Padding
 ==> Margin - give the space around to the Border
+
+7) Position - Moving one place to another place
+==> Static (default)
+==> Relative - using top, bottom, left and right
+==> Absolute - it will search the non-static parent, if there means it will work like a Relative, oterwise it will another parent another parent, no parent(non-static) means it will move to root(body) of the site
+==> Fixed - to be fiexd the place
+==> Sticky - top:0 and z-index:100

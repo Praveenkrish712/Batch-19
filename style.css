@@ -7,7 +7,7 @@
 }
 
 h1{
-    color: #ff00cc;
+    /* color: #ff00cc; */
     /* background-color: black; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
@@ -20,27 +20,27 @@ h1{
 }
 
 h2{
-    color: aqua;
-    background-color: black;
+    /* color: aqua; */
+    /* background-color: black; */
 }
 
 h3{
-    background-color: gray;
+    /* background-color: gray; */
 }
-
+/* 
 p{
-    /* color: brown; */
+    color: brown;
     background-image: url(./Assets/360_F_389390965_lwqVX10TBdFH2WMBH6GGF8pcNiOhzfnb.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+} */
 
 .Selector > h1,
 .Selector > h2,
 .Selector > h3,
 .Selector > h4{
-    color: hotpink;
+    /* color: hotpink; */
 }
 
 #Box > h2{
@@ -60,4 +60,34 @@ p{
     /* margin-top: 100px;
     margin-left: 200px; */
     margin: 30px 50px 70px 90px;
+}
+
+#Number > h4,
+#Number > h2,
+#Number > h3{
+    color: yellow;
+}
+
+h2{
+    background-color: green;
+}
+
+.bluebox{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    /* position: relative; */
+    /* top: 50px; */
+    margin-top: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.pinkbox{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    /* position: fixed; */
+    /* left: 50px; */
+    /* top: 30px; */
 }
