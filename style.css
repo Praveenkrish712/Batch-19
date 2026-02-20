@@ -79,7 +79,7 @@ h2{
     /* position: relative; */
     /* top: 50px; */
     margin-top: 50px;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
 }
 
@@ -87,7 +87,85 @@ h2{
     width: 100px;
     height: 100px;
     background-color: hotpink;
-    /* position: fixed; */
+    position: absolute;
     /* left: 50px; */
-    /* top: 30px; */
+    top: 30px;
+}
+
+.box1{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    /* flex: 1; */
+    order: 2;
+}
+
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    /* flex: 1; */
+    order: 3;
+}
+
+.box3{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    /* flex: 1; */
+    order: 1;
+}
+
+.box4{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.box5{
+    width: 200px;
+    height: 100px;
+    background-color: violet;
+}
+
+.box6{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}
+
+.box7{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
+.box8{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.box9{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.box10{
+    width: 200px;
+    height: 100px;
+    background-color: violet;
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* height: 500px; */
+    /* border: 5px solid black; */
+    align-items: start;
+    /* gap: 10px; */
+    /* flex-wrap: wrap; */
+    align-content: start;
 }

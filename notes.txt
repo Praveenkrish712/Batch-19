@@ -85,3 +85,14 @@ selector{
 ==> Absolute - it will search the non-static parent, if there means it will work like a Relative, oterwise it will another parent another parent, no parent(non-static) means it will move to root(body) of the site
 ==> Fixed - to be fiexd the place
 ==> Sticky - top:0 and z-index:100
+
+8) Flex (Display) - One dimensional layout system
+==> Using Display: flex; (Align into row)
+==> Flex Direction - row, row-reverse, column, column-reverse
+==> Justify content (X) - Start, center, end, space-around, space-evenly, space-between
+==> Align items (Y) (set the height) - Start, center, end
+==> Gap - to be set with values (px,m,cm,rem,%,vh,vw)
+==> Flex wrap - nowrap, wrap, wrap-reverse
+==> Align content (Y) (set the height) (flex-wrap is enable) - Start, center, end, space-around, space-evenly, space-between
+==> flex(on items) - flex:1
+==> Order (Change the visual order of the property)
