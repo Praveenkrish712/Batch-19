@@ -96,3 +96,26 @@ selector{
 ==> Align content (Y) (set the height) (flex-wrap is enable) - Start, center, end, space-around, space-evenly, space-between
 ==> flex(on items) - flex:1
 ==> Order (Change the visual order of the property)
+
+9) grid (display) - Two dimensional layout system
+==> using display: Grid; (No change)
+==> grid-template-columns: 30% 30% 30%;
+                         : 120px 300px 400px;
+                         : 20% 300px 25%;
+                         : 1fr 1fr 1fr 1fr 1fr;
+                         : 1fr 2fr 1fr;
+                         : 30% 400px 1fr;
+                         : repeat(5,200px);
+                         : minmax(200px,1fr) 1fr 1fr;
+                         : repeat(3,minmax(200px,1fr));
+==> grid-template-rows: 200px 70% 1fr;  
+==> Gap - to be set with values (px,m,cm,rem,%,vh,vw)   
+==> grid-column-start: 1; (starting position)
+==> grid-column-end: 4;  (Ending position)  
+==> grid-column: span 3;
+==> grid-row: span 3;  
+==> grid-template-areas: 
+                      "h h h h"
+                      "sb1 m m sb2"
+                      "f f f f";
+==> grid-area: h;            
