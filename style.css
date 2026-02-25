@@ -1,4 +1,4 @@
-*{
+* {
     /* background-color: gray; */
     padding: 0;
     margin: 0;
@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     /* color: #ff00cc; */
     /* background-color: black; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -19,14 +19,15 @@ h1{
     letter-spacing: 1px;
 }
 
-h2{
+h2 {
     /* color: aqua; */
     /* background-color: black; */
 }
 
-h3{
+h3 {
     /* background-color: gray; */
 }
+
 /* 
 p{
     color: brown;
@@ -36,18 +37,18 @@ p{
     background-size: cover;
 } */
 
-.Selector > h1,
-.Selector > h2,
-.Selector > h3,
-.Selector > h4{
+.Selector>h1,
+.Selector>h2,
+.Selector>h3,
+.Selector>h4 {
     /* color: hotpink; */
 }
 
-#Box > h2{
+#Box>h2 {
     color: yellow;
 }
 
-.container{
+.container {
     width: 200px;
     height: 200px;
     background-color: red;
@@ -62,17 +63,17 @@ p{
     margin: 30px 50px 70px 90px;
 }
 
-#Number > h4,
-#Number > h2,
-#Number > h3{
+#Number>h4,
+#Number>h2,
+#Number>h3 {
     color: yellow;
 }
 
-h2{
+h2 {
     background-color: green;
 }
 
-.bluebox{
+.bluebox {
     width: 300px;
     height: 300px;
     background-color: blue;
@@ -83,7 +84,7 @@ h2{
     top: 0;
 }
 
-.pinkbox{
+.pinkbox {
     width: 100px;
     height: 100px;
     background-color: hotpink;
@@ -92,7 +93,7 @@ h2{
     top: 30px;
 }
 
-.box1{
+.box1 {
     width: 200px;
     height: 100px;
     background-color: green;
@@ -100,7 +101,7 @@ h2{
     order: 2;
 }
 
-.box2{
+.box2 {
     width: 200px;
     height: 100px;
     background-color: blue;
@@ -108,7 +109,7 @@ h2{
     order: 3;
 }
 
-.box3{
+.box3 {
     width: 200px;
     height: 100px;
     background-color: yellow;
@@ -116,43 +117,43 @@ h2{
     order: 1;
 }
 
-.box4{
+.box4 {
     width: 200px;
     height: 100px;
     background-color: red;
 }
 
-.box5{
+.box5 {
     width: 200px;
     height: 100px;
     background-color: violet;
 }
 
-.box6{
+.box6 {
     width: 200px;
     height: 100px;
     background-color: green;
 }
 
-.box7{
+.box7 {
     width: 200px;
     height: 100px;
     background-color: blue;
 }
 
-.box8{
+.box8 {
     width: 200px;
     height: 100px;
     background-color: yellow;
 }
 
-.box9{
+.box9 {
     width: 200px;
     height: 100px;
     background-color: red;
 }
 
-.box10{
+.box10 {
     width: 200px;
     height: 100px;
     background-color: violet;
@@ -163,26 +164,26 @@ h2{
     flex-direction: row;
     justify-content: start;
     /* height: 500px; */
-    /* border: 5px solid black; */
-    /* align-items: start; */
-    /* gap: 10px; */
-    /* flex-wrap: wrap; */
-    /* align-content: start;
-} */ 
+/* border: 5px solid black; */
+/* align-items: start; */
+/* gap: 10px; */
+/* flex-wrap: wrap; */
+/* align-content: start;
+} */
 
-.Container{
+.Container {
     display: grid;
-    grid-template-columns: repeat(3,minmax(200px,1fr));
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
     /* grid-template-rows: 200px 70% 1fr; */
 }
 
-.para{
+.para {
     padding: 20px;
     background-color: steelblue;
     color: white;
 }
 
-.items{
+.items {
     background-color: green;
     color: white;
     font-size: 50px;
@@ -191,25 +192,25 @@ h2{
     align-items: center;
 }
 
-.outerbox{
+.outerbox {
     display: grid;
     margin: 20px;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     /* grid-template-rows: 200px 400px 200px; */
     gap: 10px;
 }
 
-.item1{
+.item1 {
     /* grid-column-start: 1;
     grid-column-end: 4; */
     grid-column: span 3;
 }
 
-.item2{
+.item2 {
     grid-row: span 3;
 }
 
-.layout > div{
+.layout>div {
     border: 1px solid black;
     background-color: #ebabac;
     font-size: 50px;
@@ -218,32 +219,93 @@ h2{
     align-items: center;
 }
 
-.layout{
+.layout {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 10vh 80vh 10vh;
-    grid-template-areas: 
-    "h h h h"
-    "sb1 m m sb2"
-    "f f f f";    
+    grid-template-areas:
+        "h h h h"
+        "sb1 m m sb2"
+        "f f f f";
 }
 
-.header{
+.header {
     grid-area: h;
 }
 
-.footer{
-    grid-area: f    ;
+.footer {
+    grid-area: f;
 }
 
-.sidebar1{
+.sidebar1 {
     grid-area: sb1;
 }
 
-.sidebar2{
+.sidebar2 {
     grid-area: sb2;
 }
 
-.main{
+.main {
     grid-area: m;
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    transition-duration: 5s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+.square:hover {
+    width: 600px;
+    background-color: chartreuse;
+    transform: translateY(100px);
+}
+
+.square2 {
+    width: 100px;
+    height: 100px;
+    background-color: tan;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes circle {
+    25% {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        left: 5px;
+        top: 5px;
+    }
+
+    50% {
+        width: 300px;
+        height: 300px;
+        background-color: green;
+        left: 10px;
+        top: 10px;
+    }
+
+    75% {
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        left: 15px;
+        top: 15px;
+    }
+
+    100% {
+        width: 500px;
+        height: 500px;
+        background-color: coral;
+        left: 20px;
+        top: 20px;
+    }
 }

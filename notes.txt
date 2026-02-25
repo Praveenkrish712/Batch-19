@@ -118,4 +118,23 @@ selector{
                       "h h h h"
                       "sb1 m m sb2"
                       "f f f f";
-==> grid-area: h;            
+==> grid-area: h;  
+
+10) Transition and Animation
+==> Transition - Whenever we hover or Affected that some action will act its called Transition
+==> Animation - Whenever the site will reload or refresh some action will act its called Animation
+
+==> Transition
+    transition-duration: 5s;
+    transition-property: all;
+    transition-timing-function: linear;
+
+==> transform - Rotate, scaleX, translateY
+
+==> Animation
+ using Keyframes and set the limits like from to or 25%,50%,75%,100%
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+        
