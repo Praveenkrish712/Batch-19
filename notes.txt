@@ -137,4 +137,12 @@ selector{
     animation-duration: 10s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-        
+
+11) Media Queries or Responsive Design
+* apply style based on device condition
+* Device type( Mobile, Tab, DeskTop)  
+* To help of Adaptability, Control and SEO   
+
+Mobile - 320px to 600px
+tab    - 601px to 800px
+lap/ DeskTop - above 801px
